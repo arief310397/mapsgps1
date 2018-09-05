@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.5"
+        android:onClick="button1"
+        android:text="CARI JAMA'AH" />
+
+    <EditText
+        android:id="@+id/userids"
+        android:layout_width="196dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_weight="4"
+        android:autoText="false"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:hint="Masukan ID Jamaah"
+        android:inputType="number" />
+
+    <RelativeLayout
+        android:id="@+id/Relatives"
+        android:layout_width="match_parent"
+        android:layout_height="505dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

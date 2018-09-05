@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:background="#000146">
+            
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:src=""
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="125dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Tugas Akhir"
+                android:textColor="#fff"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Hajj Pilgrims Monitoring By GPS Tracker"
+                android:textColor="#fff"
+                android:textSize="17sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/email"
+                android:inputType="textEmailAddress"
+                android:drawableStart="@drawable/ic_account_circle_black_24dp"
+                android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+                android:textColor="#fff"
+                android:textColorHint="#c7c7c7"
+                android:background="#000146"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:hint="Email"
+                android:padding="10dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:inputType="numberPassword"
+                android:id="@+id/password"
+                android:drawableStart="@drawable/ic_lock_black_24dp"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:textColor="#fff"
+                android:textColorHint="#c7c7c7"
+                android:background="#000146"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:hint="Password"
+                android:padding="10dp"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/email_sign_in_button"
+                android:textColor="#fff"
+                android:background="#000146"
+                android:text="Log In / Masuk"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="21sp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selamat Datang Jama'ah"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
